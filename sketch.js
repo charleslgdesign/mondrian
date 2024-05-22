@@ -253,7 +253,7 @@
 
     function preload() {
     soundFormats('mp3');
-    setBuffer(1);
+    // setBuffer(1);
     kick = loadSound('audio/kick');
     // kick.setBuffer(1);
     glaring_violin = loadSound('audio/glaring_violin');
@@ -268,7 +268,7 @@
     // marching_hihat.setBuffer(9);
     slipping_clap = loadSound('audio/slipping_clap');
     // slipping_clap.setBuffer(11);
-    // popping_openhat = loadSound('audio/popping_openhat');
+    popping_openhat = loadSound('audio/popping_openhat');
     // popping_openhat.setBuffer(13);
     skipping_hihat = loadSound('audio/skipping_hihat');
     // skipping_hihat.setBuffer(15);
