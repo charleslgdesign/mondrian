@@ -252,7 +252,7 @@
 
 
     function preload() {
-    soundFormats('wav');
+    soundFormats('mp3');
     
     kick = loadSound('audio/kick');
     glaring_violin = loadSound('audio/glaring_violin');
@@ -803,9 +803,11 @@ function draw() {
     text(bmg,gspace+x1,rh+y2);
     text(bmb,bspace+x1,rh+y2);
 
+    pop();
+
     // // BOTTOM RIGHT
 
-    pop();
+    push();
 
     if (brm > 0.5) {
 
@@ -837,8 +839,6 @@ function draw() {
     fill(brr,brg,brb);
     rect(x2,y2,x3,y3); 
 
-    push()
-
     fill(tc);
     textSize(ts);
 
@@ -846,7 +846,7 @@ function draw() {
     text(brg,gspace+x2,rh+y2);
     text(brb,bspace+x2,rh+y2);
 
-    pop()
+    pop();
 
     
 }
