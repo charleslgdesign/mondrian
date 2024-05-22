@@ -255,6 +255,7 @@
     soundFormats('mp3');
     
     kick = loadSound('audio/kick');
+    kick.setBuffer(1)
     glaring_violin = loadSound('audio/glaring_violin');
     liquid_synth = loadSound('audio/liquid_synth');
     rushing_synth = loadSound('audio/rushing_synth');
