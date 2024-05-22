@@ -253,7 +253,7 @@
 
     function preload() {
     soundFormats('mp3');
-    setBuffer(1);
+    // setBuffer(1);
     kick = loadSound('audio/kick');
     // .setBuffer(1);
     glaring_violin = loadSound('audio/glaring_violin');
