@@ -253,25 +253,25 @@
 
     function preload() {
     soundFormats('mp3');
-    
+    setBuffer(1);
     kick = loadSound('audio/kick');
-    kick.setBuffer(1);
+    // kick.setBuffer(1);
     glaring_violin = loadSound('audio/glaring_violin');
-    glaring_violin.setBuffer(1);
+    // glaring_violin.setBuffer(1);
     liquid_synth = loadSound('audio/liquid_synth');
-    liquid_synth.setBuffer(3);
+    // liquid_synth.setBuffer(3);
     rushing_synth = loadSound('audio/rushing_synth');
-    rushing_synth.setBuffer(5);
+    // rushing_synth.setBuffer(5);
     grating_bass = loadSound('audio/grating_bass');
-    grating_bass.setBuffer(7);
+    // grating_bass.setBuffer(7);
     marching_hihat = loadSound('audio/marching_hihat');
-    marching_hihat.setBuffer(9);
+    // marching_hihat.setBuffer(9);
     slipping_clap = loadSound('audio/slipping_clap');
-    slipping_clap.setBuffer(11);
-    popping_openhat = loadSound('audio/popping_openhat');
-    popping_openhat.setBuffer(13);
+    // slipping_clap.setBuffer(11);
+    // popping_openhat = loadSound('audio/popping_openhat');
+    // popping_openhat.setBuffer(13);
     skipping_hihat = loadSound('audio/skipping_hihat');
-    skipping_hihat.setBuffer(15);
+    // skipping_hihat.setBuffer(15);
 }
 
 function setup() {  
